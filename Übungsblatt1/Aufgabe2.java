@@ -10,7 +10,7 @@ public class Aufgabe2 extends JFrame {
 
     private JLabel beschriftung;
     private JLabel datumsAnzeige;
-    private JComboBox<String> formatAuswahl;
+    private JComboBox <String> formatAuswahl;
     private Date datum;
     private JButton aktualisieren;
     private static final SimpleDateFormat kurz = new SimpleDateFormat("EEE, MMM d, HH:mm");

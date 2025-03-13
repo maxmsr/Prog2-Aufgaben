@@ -97,5 +97,4 @@ public class Aufgabe4 extends JFrame {
             }
         }
     }
-
 }
