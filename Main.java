@@ -10,7 +10,10 @@ public class Main {
         // new Aufgabe4();
         // new Aufgabe5();
 
-        Aufgabe16 thread = new Aufgabe16();
-        thread.start();
+        // Aufgabe16 thread = new Aufgabe16();
+        // thread.start();
+
+        new Aufgabe17();
+
     }
 }
