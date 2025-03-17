@@ -11,7 +11,7 @@ public class Main{
         // new Aufgabe2();
         // new Aufgabe3();
         // new Aufgabe4();
-         new Aufgabe5();
-        // new Aufgabe16();
+        // new Aufgabe5();
+        new Aufgabe16();
     }
 }
