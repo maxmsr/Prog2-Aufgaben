@@ -11,7 +11,8 @@ public class Main {
         // new Aufgabe5();
         // Aufgabe16 thread = new Aufgabe16();
         // thread.start();
-        new Aufgabe17();
+        // new Aufgabe17();
+        new Aufgabe18();
 
     }
 }
