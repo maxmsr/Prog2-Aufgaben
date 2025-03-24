@@ -12,7 +12,7 @@ public class Main {
         // Aufgabe16 thread = new Aufgabe16();
         // thread.start();
         // new Aufgabe17();
-        new Aufgabe18();
+        // new Aufgabe18();
 
     }
 }

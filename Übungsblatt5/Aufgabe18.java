@@ -110,7 +110,4 @@ public class Aufgabe18 extends JFrame {
         }
     }
 
-    public static void main(String[] args) {
-        new Aufgabe18();
-    }
 }
