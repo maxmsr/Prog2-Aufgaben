@@ -1,4 +1,6 @@
 import javax.swing.*;
+
+import AlogoUndData.Blatt4.listeF;
 import Übungsblatt1.*;
 import Übungsblatt5.*;
 
@@ -13,6 +15,13 @@ public class Main {
         // thread.start();
         // new Aufgabe17();
         // new Aufgabe18();
+        listeF<Integer> list = new listeF<>(10);
+        list.add(5);
+        list.add(3);
+        list.add(8);
+        list.add(1);
 
+        list.loescheMin(); // Löscht das Element 1
+        System.out.println(list.get(2)); // Gibt 8 aus (neue Struktur: [5, 3, 8])
     }
 }
