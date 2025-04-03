@@ -2,7 +2,12 @@ import javax.swing.*;
 
 import AlogoUndData.Blatt4.listeF;
 import Übungsblatt1.*;
+//import Übungsblatt2.*;
+//import Übungsblatt3.*;
+//import Übungsblatt4.*;
 import Übungsblatt5.*;
+//import Übungsblatt6.*;
+import Übungsblatt7.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +20,7 @@ public class Main {
         // thread.start();
         // new Aufgabe17();
         // new Aufgabe18();
+        /*
         listeF<Integer> list = new listeF<>(10);
         list.add(5);
         list.add(3);
@@ -23,5 +29,9 @@ public class Main {
 
         list.loescheMin(); // Löscht das Element 1
         System.out.println(list.get(2)); // Gibt 8 aus (neue Struktur: [5, 3, 8])
+
+         */
+
+        new Aufgabe22();
     }
 }
