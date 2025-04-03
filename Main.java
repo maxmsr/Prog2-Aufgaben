@@ -32,6 +32,8 @@ public class Main {
 
          */
 
-        new Aufgabe22();
+        //new Aufgabe22();
+        Aufgabe24 a = new Aufgabe24(123, "Max", 456, 3);
+        System.out.println(a.toString());
     }
 }
