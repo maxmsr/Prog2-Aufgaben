@@ -216,7 +216,7 @@ public class KaffeeStroeme {
 	}
 	
 	
-	// Entweder in try/catch || throws IOException
+	// Entweder in try/catch oder throws IOException
 	public static void main(String[] args) 
 			throws IOException{
 		
