@@ -1,0 +1,7 @@
+Rabattmarke:
+  Nummer = 1
+  Besitzer = max
+  Kundennummer = 2
+  Rabattwert = 2.0%
+  Erstellt am = Fri Apr 04 08:35:15 CEST 2025
+
