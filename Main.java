@@ -11,10 +11,11 @@ import Übungsblatt5.*;
 import Übungsblatt7.*;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         // new Aufgabe1();
         // new Aufgabe2();
         // new Aufgabe3();
@@ -38,6 +39,7 @@ public class Main {
         //new Aufgabe22();
         //Aufgabe24 a = new Aufgabe24(123, "Max", 456, 3);
         //System.out.println(a.toString());
+        /*
         int anzahl = IOTools.readInt("Wieviele Rabattmarken willst du erzeugen? ");
         Aufgabe24[] rabattmarken = new Aufgabe24[anzahl];
 
@@ -56,5 +58,9 @@ public class Main {
         } catch (IOException e) {
             System.err.println("Fehler beim Schreiben der Datei: " + e.getMessage());
         }
+
+         */
+        Aufgabe24.print printer = new Aufgabe24.print();
+        printer.read();
     }
 }

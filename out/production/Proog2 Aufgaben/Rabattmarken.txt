@@ -1,7 +1,21 @@
 Rabattmarke:
   Nummer = 1
   Besitzer = max
-  Kundennummer = 2
+  Kundennummer = 1
   Rabattwert = 2.0%
-  Erstellt am = Fri Apr 04 08:35:15 CEST 2025
+  Erstellt am = Fri Apr 04 08:35:31 CEST 2025
+
+Rabattmarke:
+  Nummer = 2
+  Besitzer = timo
+  Kundennummer = 3
+  Rabattwert = 1.0%
+  Erstellt am = Fri Apr 04 08:35:36 CEST 2025
+
+Rabattmarke:
+  Nummer = 3
+  Besitzer = joha
+  Kundennummer = 4
+  Rabattwert = 3.0%
+  Erstellt am = Fri Apr 04 08:35:42 CEST 2025
 

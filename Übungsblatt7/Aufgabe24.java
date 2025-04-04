@@ -51,4 +51,21 @@ public class Aufgabe24 implements Serializable {
             e.printStackTrace();
         }
     }
-}
+
+    public static class print {
+        public static void read() {
+            try (FileReader fr = new FileReader("Rabattmarken.txt")) {
+                int c;
+                while ((c = fr.read()) != -1) {
+                    System.out.print((char)c);
+                }
+            } catch (FileNotFoundException e) {
+                System.err.println("Datei nicht gefunden: " + e.getMessage());
+            } catch (IOException e) {
+                System.err.println("Lesefehler: " + e.getMessage());
+            }
+        }
+    }
+
+
+    }
