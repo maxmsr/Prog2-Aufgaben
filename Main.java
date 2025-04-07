@@ -60,7 +60,7 @@ public class Main {
         }
 
          */
-        Aufgabe24.print printer = new Aufgabe24.print();
-        printer.read();
+        //Aufgabe24.print printer = new Aufgabe24.print();
+        //printer.read();
     }
 }
