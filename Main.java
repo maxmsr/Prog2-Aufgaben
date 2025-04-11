@@ -6,6 +6,7 @@ import Übungsblatt1.*;
 //import Übungsblatt2.*;
 //import Übungsblatt3.*;
 //import Übungsblatt4.*;
+import Übungsblatt3.Aufgabe10;
 import Übungsblatt5.*;
 //import Übungsblatt6.*;
 import Übungsblatt7.*;
@@ -62,5 +63,12 @@ public class Main {
          */
         //Aufgabe24.print printer = new Aufgabe24.print();
         //printer.read();
+
+        Aufgabe10 a = new Aufgabe10(10, 20);
+        System.out.println(a.getX());
+        System.out.println(a.getY());
+        a.Drehen(3.5);
+        System.out.println(a.getX());
+        System.out.println(a.getY());
     }
 }
