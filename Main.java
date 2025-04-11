@@ -1,19 +1,10 @@
-import javax.swing.*;
-
-import AlogoUndData.Blatt4.listeF;
-import Prog1tools.IOTools;
-import Übungsblatt1.*;
 //import Übungsblatt2.*;
 //import Übungsblatt3.*;
 //import Übungsblatt4.*;
-import Übungsblatt3.Aufgabe10;
-import Übungsblatt5.*;
+import Prog2.Übungsblatt1.Aufgabe10;
 //import Übungsblatt6.*;
-import Übungsblatt7.*;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+        import java.io.FileNotFoundException;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
