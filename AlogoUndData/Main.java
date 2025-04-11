@@ -1,6 +1,6 @@
 package AlogoUndData;
 
-import AlogoUndData.Blatt2.Aufgabe5;
+import AlogoUndData.Blatt2.*;
 
 public class Main {
     public static void main(String[] args)  {
