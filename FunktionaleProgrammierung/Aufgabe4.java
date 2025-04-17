@@ -22,7 +22,7 @@ public class Aufgabe4 {
 
         // Aufgabe 4f
         LinkedList<Person> daten2 = personData.stream()
-                .skip(1) // Headerzeile überspringen
+                .skip(1)
                 .map(Hilfsklasse::ausString)
                 .filter(Objects::nonNull)
                 .collect(Collectors.toCollection(LinkedList::new));
