@@ -103,7 +103,7 @@ public class Aufgabe4 {
 
         // Aufgabe 4r
         System.out.println("\n=== Aufgabe 4r ===");
-        ArrayList<Integer> numbers = IntStream.rangeClosed(1, 100_000)
+        ArrayList<Integer> numbers = IntStream.rangeClosed(1, 100_00000)
                 .boxed()
                 .collect(Collectors.toCollection(ArrayList::new));
 
