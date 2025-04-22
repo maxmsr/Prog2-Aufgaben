@@ -1,8 +1,7 @@
 package FunktionaleProgrammierung;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.io.Serializable;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -19,6 +18,25 @@ public class privateÜbungen {
 
     public class Aufgabe2{
         Predicate<int[]> greaterThen10;
+    }
+
+    public class Person{
+        String name;
+        int age;
+
+        public Person(String name, int i) {
+            this.name = name;
+            this.age = i;
+        }
+
+        @Override
+        public String toString() {
+            return super.toString();
+        }
+
+        public int getAge() {
+            return age;
+        }
     }
 
     public void main(String[] args) {
@@ -49,6 +67,33 @@ public class privateÜbungen {
                 .map(s -> s.charAt(0))  // Transformiere jeden String zu seinem ersten Char
                 .collect(Collectors.toList());  // Sammle in einer neuen Liste
         System.out.println(output);
+
+
+        List<Integer> AL = Arrays.asList(3, 7, 12, 5, 20);
+        List<Integer> AL2 = AL.stream().filter(n -> n>10).collect(Collectors.toList());
+        System.out.println(AL2);
+
+        List<String> Auf2 = Arrays.asList("Java","Python","Apfel","Baum","Auto");
+        List<Integer> Auf2Lö = Auf2.stream().map(x -> x.length()).filter(x -> x>4).collect(Collectors.toList());
+        System.out.println(Auf2Lö);
+
+        List<Integer> Auf3 = Arrays.asList(3,7,12,5,20,6,7,8,9,10);
+        List<Integer> Auf3Lö = Collections.singletonList(Auf3.stream().reduce(0, Integer::sum));
+        System.out.println(Auf3Lö);
+
+        List<Person> personenListe = new ArrayList<>();
+
+        // Personen zur Liste hinzufügen
+        personenListe.add(new Person("Emma Schmidt", 32));
+        personenListe.add(new Person("Thomas Müller", 45));
+        personenListe.add(new Person("Sophie Weber", 28));
+        personenListe.add(new Person("Michael Fischer", 51));
+        personenListe.add(new Person("Laura Wagner", 36));
+        System.out.println(personenListe);
+
+        List<Person> sortierteListe = personenListe.stream().sorted(Comparator.comparingInt(Person::getAge)).collect(Collectors.toList());
+
+        System.out.println(sortierteListe);
 
     }
     }
